@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    width: 600px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+div {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+}

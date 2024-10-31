@@ -3,12 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Forma</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <form action="#">
-      <label for="name">Name</label>
-      <input type="text" id="name" />
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" />
+      </div>
+
+      <div>
+        <label for="theme">Tēma</label>
+        <select name="" id="theme">
+          <option value="">--Please choose an option--</option>
+          <option value="1">Tehniskais atbalsts</option>
+          <option value="2">Piedāvājumi</option>
+          <option value="3">Vispārīgi jautājumi</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="agreement">Piekrītat saņemt jaunumus?</label>
+        <input type="checkbox" name="" id="agreement" />
+      </div>
+
+      <div><input type="submit" value="Sūtīt" /></div>
     </form>
   </body>
 </html>
